@@ -1,0 +1,49 @@
+Comments in JavaScript serve as non-executable text within the code that are used to provide explanations, clarify the purpose of the code, and make it more understandable to other developers (including your future self). They are ignored by the JavaScript engine during runtime and do not affect the functionality of the code. Here's why comments are important:
+
+1. Documentation: Comments help document the code, explaining its purpose, logic, and functionality. They provide context to the code, making it easier for other developers to understand and maintain.
+
+2. Clarity and Readability: Well-written comments enhance code readability by breaking down complex logic into understandable parts. They also provide guidance on how to use functions, variables, and components.
+
+3. Debugging and Troubleshooting: Comments can be used to temporarily disable or isolate code sections during debugging. They also serve as markers to identify potential issues or areas for improvement.
+
+4. Collaboration: Comments facilitate collaboration among team members by enabling clear communication about the code's intent, requirements, and implementation details.
+
+ Examples of Single-line and Multi-line Comments:
+
+ Single-line Comments:
+Single-line comments are used to add comments on a single line of code.
+
+javascript
+// This is a single-line comment
+let age = 30;  // Assigning value 30 to the 'age' variable
+
+
+ Multi-line Comments:
+Multi-line comments are used to add comments that span multiple lines.
+
+javascript
+/*
+   This is a multi-line comment
+   It spans multiple lines
+   Useful for commenting out blocks of code or providing detailed explanations
+*/
+let name = "John";
+
+
+In the above examples:
+- The single-line comment starts with `//` and continues until the end of the line. It's often used for short, inline comments.
+- The multi-line comment starts with `/*` and ends with `*/`. It can span multiple lines and is typically used for longer explanations or commenting out blocks of code.
+
+Here's a practical example of how comments can be used in JavaScript code:
+
+javascript
+// Function to calculate the area of a rectangle
+function calculateArea(length, width) {
+    // Multiply length and width to get the area
+    let area = length * width;
+
+    // Return the calculated area
+    return area;
+}
+
+In this example, comments are used to document the purpose of the function `calculateArea`, explain the calculation logic, and provide context for the code. This makes it easier for other developers to understand how the function works and its intended usage.

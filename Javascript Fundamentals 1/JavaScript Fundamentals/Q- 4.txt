@@ -1,0 +1,43 @@
+In JavaScript, declaring variables serves the purpose of reserving memory space to store data values. Variables act as containers for storing data that can be manipulated and accessed throughout the program. By declaring variables, developers can store and manage information such as numbers, strings, objects, and more, making their code more flexible and dynamic.
+
+The `let` keyword is one of the modern ways to declare variables in JavaScript introduced in ECMAScript 6 (ES6). Here's how you declare variables using the `let` keyword:
+
+javascript
+let variableName;
+
+
+- Syntax: `let variableName;`
+- Usage: This declares a variable named `variableName` without assigning any initial value to it.
+
+You can also initialize the variable with an initial value:
+
+javascript
+let age = 30;
+
+
+- Syntax: `let variableName = value;`
+- Usage: This declares a variable named `age` and initializes it with the value `30`.
+
+When declaring variables with `let`:
+
+- Variables declared with `let` have block scope, meaning they are only accessible within the block (enclosed by curly braces) in which they are declared.
+- Unlike variables declared with `var`, variables declared with `let` are not hoisted to the top of their scope. They are only accessible after the point in the code where they are declared.
+- You can reassign values to variables declared with `let`.
+- You cannot redeclare a variable with the same name in the same scope.
+
+Here's an example demonstrating the declaration and use of variables with the `let` keyword:
+
+javascript
+let name = "John";
+let age = 30;
+
+console.log("Name:", name);
+console.log("Age:", age);
+
+// Update the value of 'age'
+age = 35;
+
+console.log("Updated Age:", age);
+
+
+In this example, we declare two variables `name` and `age` using the `let` keyword, initialize them with values, and then log their values to the console. Later, we update the value of the `age` variable and log the updated value to the console.
